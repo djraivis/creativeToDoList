@@ -1,6 +1,5 @@
 .clock-container {
   margin-top: -12px;
-  
   }
   
   .laiks {
@@ -8,7 +7,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: #2C4926;
+    background: #1c2c18;
     padding-bottom: 3px;
   }
   

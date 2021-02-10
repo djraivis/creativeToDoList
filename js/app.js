@@ -13,7 +13,7 @@ const LINE_THROUGH = "lineThrough";
 // Variables
 let LIST , id;
 
-// get item from localstorage
+// get item from local storage
 let data = localStorage.getItem("TODO");
 
 // check if data is not empty
@@ -27,7 +27,7 @@ if(data){
   id = 0;
 }
 
-// laod items to user's interface
+// load items to user's interface
 function loadList(array){
   array.forEach(function(item){
     addToDo(item.name, item.id, item.done, item.trash);
@@ -64,7 +64,7 @@ const position = "beforeend";
 list.insertAdjacentHTML(position, item);
 }
 
-// add an item to the list user the eneter key
+// add an item to the list user the enter key
 document.addEventListener("keyup", function(even){
   if (event.keyCode == 13){
     const toDo = input.value;

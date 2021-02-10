@@ -32,13 +32,13 @@ img {
   border-radius: 15px 15px 0 0;
   position: relative;
 }
-.overlay {
+/* .overlay {
   width: 380px;
   height: 200px;
   background: rgba(90, 146, 90, 0.993);
   mix-blend-mode: overlay;
   border-radius: inherit;
-}
+} */
 .clear {
   width: 30px;
   height: 30px;
