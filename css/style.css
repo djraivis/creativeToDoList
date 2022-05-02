@@ -10,10 +10,10 @@ body {
     /* background-attachment: fixed; */
     background-position: center;
     /* background-blend-mode: overlay; */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; */
 }
 
 img {
