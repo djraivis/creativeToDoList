@@ -10,10 +10,10 @@ body {
     /* background-attachment: fixed; */
     background-position: center;
     /* background-blend-mode: overlay; */
-    /* display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; */
+    height: 100vh;
 }
 
 img {
@@ -158,10 +158,10 @@ img {
 }
 .add-to-do input {
     position: absolute;
-    left: 50px;
-    height: 35px;
-    width: 310px;
-    background-color: transparent;
+    left: 53px;
+    height: 38px;
+    width: 300px;
+    color: rgba(73, 73, 73, 0.987);
     border: none;
     font-size: 20px;
     padding-left: 10px;
