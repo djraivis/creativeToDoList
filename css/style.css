@@ -2,18 +2,21 @@ body {
     padding: 0;
     margin: 0;
     background-color: hsl(133deg 33% 95%);
-
-    font-family: 'Titillium Web', sans-serif;
-    /* background-color: rgb(95, 110, 93); */
     /* background-image: url('../img/todo5.jpg'); */
+    font-family: 'Titillium Web', sans-serif;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
-    /* background-blend-mode: overlay; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-blend-mode: overlay;
+}
+
+@media (min-width: 800px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
 }
 
 img {
@@ -23,10 +26,16 @@ img {
 
 /* ------------ container ------------ */
 .container {
-    padding-top: 30px;
     width: 380px;
     margin: 0 auto;
 }
+
+@media (max-width: 800px) {
+    .container {
+        padding-top: 10px;
+    }
+}
+
 /* ------------ header ------------ */
 .header {
     width: 380px;
@@ -83,8 +92,8 @@ img {
 /* ------------ content ------------ */
 .content {
     width: 380px;
-    height: 350px;
-    max-height: 350px;
+    height: 40vh;
+    /* max-height: 350px; */
     background-color: #fff;
     overflow: auto;
 }
